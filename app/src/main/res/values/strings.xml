@@ -16,7 +16,9 @@
         <item>Géographie</item>
         <item>SVT</item>
         <item>Physique</item>
+        <item>Art</item>
         <item>Chimie</item>
+        <item>momo</item>
     </string-array>
 
     <string-array name="niveau_array">
