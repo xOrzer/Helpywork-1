@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Helpywork</string>
+    <string name="start_display">HELPYWORK\nLA CLÉ DU SUCCES</string>
+    <string name="welcome_display">BIENVENUE SUR HELPYWORK</string>
+    <string name="name">NAME</string>
+    <string name="login">Login</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm">Confirmation MDP</string>
+    <string name="noAccount">Pas encore de compte ?</string>
+</resources>
