@@ -18,6 +18,7 @@
         <item>Physique</item>
         <item>Art</item>
         <item>Chimie</item>
+        <item>Philosophie</item>
     </string-array>
 
     <string-array name="niveau_array">
