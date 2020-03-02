@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Select">
+    tools:context=".BesoinAide">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,10 +16,10 @@
             android:id="@+id/helpywork"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="HELPYWORK"
+            android:text="Type d'aide :"
             android:fontFamily="casual"
             android:textStyle="bold"
-            android:textColor="#2CAA7B"
+            android:textColor="#265CCD"
             android:textSize="20dp"
             android:layout_margin="20dp"/>
 
@@ -34,18 +34,19 @@
                 android:id="@+id/teacherText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Professeur"
+                android:text="Aide en ligne"
                 android:textColor="#666666"
                 android:fontFamily="casual"
                 android:textSize="20dp" />
 
             <ImageButton
-                android:id="@+id/teacherButton"
+                android:id="@+id/aideEnLigne"
                 android:layout_width="258dp"
-                android:layout_height="154dp"
+                android:layout_height="138dp"
                 android:onClick="onClick"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/teacher" />
+                app:srcCompat="@drawable/enligne"
+                android:background="@color/transparent"/>
         </LinearLayout>
 
         <LinearLayout
@@ -58,18 +59,19 @@
                 android:id="@+id/studentText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Étudiant"
+                android:text="Aide à domicile"
                 android:textColor="#666666"
                 android:fontFamily="casual"
                 android:textSize="20dp"/>
 
             <ImageButton
-                android:id="@+id/studentButton"
+                android:id="@+id/aideADomicile"
                 android:layout_width="258dp"
                 android:layout_height="137dp"
-                android:onClick="onClick"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/etudiant" />
+                android:onClick="onClick"
+                app:srcCompat="@drawable/domicile"
+                android:background="@color/transparent"/>
         </LinearLayout>
     </LinearLayout>
 

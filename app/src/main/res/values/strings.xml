@@ -7,4 +7,25 @@
     <string name="password">Mot de passe</string>
     <string name="confirm">Confirmation MDP</string>
     <string name="noAccount">Pas encore de compte ?</string>
+
+    <string-array name="matiere_array">
+        <item>Mathématiques</item>
+        <item>Français</item>
+        <item>Anglais</item>
+        <item>Histoire</item>
+        <item>Géographie</item>
+        <item>SVT</item>
+        <item>Physique</item>
+        <item>Chimie</item>
+    </string-array>
+
+    <string-array name="niveau_array">
+        <item>6eme</item>
+        <item>5eme</item>
+        <item>4eme</item>
+        <item>3eme</item>
+        <item>2nd</item>
+        <item>Terminal</item>
+    </string-array>
+
 </resources>

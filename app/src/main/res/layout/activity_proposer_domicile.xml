@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProposerDomicile">
+    <TextView
+        android:id="@+id/matiere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matière"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#265CCD"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <Spinner
+        android:id="@+id/spinnermatiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/niveau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Niveau"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#265CCD"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <Spinner
+        android:id="@+id/spinnerniveau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="30dp">
+            <EditText
+                android:id="@+id/nbKM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:backgroundTint="#000"
+                android:hint="Rayon en km"/>
+
+            <EditText
+                android:id="@+id/tarif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:backgroundTint="#000"
+                android:hint="Tarif à l'heure"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:onClick="onClick"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

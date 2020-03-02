@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/welcome_display"
                 android:textAlignment="center"
-                android:textColor="#2CAA7B"
+                android:textColor="#265CCD"
                 android:textSize="30dp"
                 android:fontFamily="casual"/>
 
